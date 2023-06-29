@@ -9,7 +9,7 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   const getTodos = async () => {
-    const res = await axios.get("https://mern-todos-backend.vercel.app/todos");
+    const res = await axios.get("https://mern-todo-app2.vercel.app/todos");
     setTodos(res.data);
   };
   useEffect(() => {

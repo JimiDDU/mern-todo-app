@@ -38,6 +38,12 @@ server.delete("/:id", async (req, res) => {
   res.send(todo);
 });
 
+server.get("*", (req, res) => {
+  res.status(200).json({
+    message: "bad request",
+  });
+});
+
 server.listen(port, () => {
   console.log("server started on port 4000");
 });

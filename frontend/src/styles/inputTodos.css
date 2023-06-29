@@ -1,0 +1,37 @@
+.inputTodos{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+input{
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 80%;
+    border: 2px solid gray;
+    background-color: black;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(71, 147, 71);
+}
+
+button{
+    padding: 14px 25px;
+    color: white;
+    background-color: green;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
